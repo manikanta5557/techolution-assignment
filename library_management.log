@@ -1,0 +1,11 @@
+2024-04-17 22:17:43 - INFO - Added book: Title: the book that doesnt exist part - 1, Author: Manikanta Dommati, ISBN: 123-456-789-123-1
+2024-04-17 22:18:31 - INFO - Updated book: Title: the book that does not exist part-2, Author: Manikanta dommati, ISBN: 123-456-789-123-1
+2024-04-17 22:18:36 - INFO - Listed all books
+2024-04-17 22:19:12 - ERROR - Attempted to add duplicate book with ISBN: 123-456-789-123-1
+2024-04-17 22:19:19 - INFO - Listed all books
+2024-04-17 22:19:47 - INFO - Added book: Title: The book that does not exist part - 1, Author: Manikanta dommati, ISBN: 123-456-789-123-2
+2024-04-17 22:20:03 - ERROR - Book with the given ISBN does not exist. isbn : the book that does not exist part - 3
+2024-04-17 22:32:09 - INFO - Listed all books
+2024-04-17 22:44:14 - INFO - Listed all books
+2024-04-17 22:44:53 - INFO - Added book: Title: the book that does not exist part - 3, Author: Manikanta_dommati, ISBN: 908-3423-3231-3
+2024-04-18 11:08:10 - ERROR - Book 123-456-789-123-1 is available in the library.
