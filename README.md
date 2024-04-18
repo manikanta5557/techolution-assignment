@@ -58,3 +58,14 @@ Provides a command-line interface (CLI) for interacting with the library managem
 Offers a menu-driven interface for library operations such as adding or removing books and users, checking books in and out, and tracking books.
 Delegates user commands to the appropriate managers (BookManager, UserManager, CheckoutManager) for processing.
 Serves as the primary point of interaction for users with the library system, ensuring a seamless and user-friendly experience.
+## Design Pattern usage:
+In the code design for the library management system described above, a few design patterns from the realm of software engineering are used. These patterns help structure the application in a way that promotes maintainability, scalability, and robustness. Here are the primary design patterns identified in the code:
+
+### 1. Singleton Pattern
+The Storage class in our code could be considered an example of the Singleton pattern, we ensure that only one instance of this class handles the file storage throughout the application.
+### 2. Facade Pattern
+The LibraryInterface class functions as a Facade, providing a simplified interface to the complex underlying system involving book and user management as well as checkout processes. It hides the complexities of the system and provides a single simple interface to the client, making the subsystems easier to use.
+### 3. Command Pattern
+While not fully fleshed out as typical command pattern implementations, the run method in LibraryInterface somewhat mirrors the command pattern. Each action (like adding a book, listing books, etc.) could be encapsulated as a command object, but currently, they're implemented as methods within the interface. To more closely align with the command pattern, these actions could be refactored into separate command classes that execute these specific actions.
+
+
